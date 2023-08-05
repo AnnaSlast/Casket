@@ -1,0 +1,51 @@
+.name
+{
+display: flex;
+justify-content: center;
+}
+.menu *
+{
+text-decoration: none;
+color:aqua;
+}
+#bo
+{
+    background:linear-gradient(blue, pink);
+}
+a:hover {
+    color: blue;
+}
+.picture *
+{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+width: 1200px;
+height: 300px;
+align-items: center;
+}
+.picture1{
+display: flex;
+background-image: url(/Week5/images/magicfeather.png);
+background-size: 200px 200px;
+background-repeat: no-repeat;
+background-position: 50px 50px;
+}
+.picture2{
+background-image: url(/Week5/images/magicball.png);
+background-size: 200px 200px;
+background-repeat: no-repeat;
+background-position: 300px 50px;
+}
+.picture3{
+background-image: url(/Week5/images/magicstickwithsnake.png);
+background-size: 200px 200px;
+background-repeat: no-repeat;
+background-position: 550px 50px;
+}
+.picture1:hover
+{
+transform: scale(1.2);
+}
+
+

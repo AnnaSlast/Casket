@@ -1,0 +1,101 @@
+.header
+{
+display: flex;
+background-color: gray;
+width: 100%;
+height: 10vh;
+justify-content: space-around;
+align-items: center;
+font-weight: bold;
+}
+.menu
+{
+display: flex;
+font-weight: bold;
+}
+.right
+{
+display: flex;
+background-color: darkorange;
+width: 60%;
+height: 60vh;
+flex-direction:column;
+justify-content:center;
+}
+.left
+{
+display: flex;
+background-color: darkgreen;
+width: 40%;
+height: 60vh;
+justify-content: space-around;
+align-items:first baseline;
+}
+span
+{
+display: flex;
+justify-content:center;
+align-items:start;
+margin: auto;
+}
+.onetwo
+{
+display: flex;
+justify-content:space-evenly;
+align-items:flex-end;
+height: 15vh;
+}
+.one
+{
+display: flex;
+background-color:gold;
+width: 45%;
+height: 12vh;
+justify-content: center;
+align-items: center;
+}
+.two
+{
+    display: flex;
+    background-color:gold;
+    width: 45%;
+    height: 12vh;
+    justify-content: center;
+align-items: center;
+}
+.threethree
+{
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+height: 15vh;
+}
+.three
+{
+display: flex;
+background-color:gold;
+width: 95%;
+height: 12vh;
+justify-content:space-evenly;
+align-items: center;
+}
+
+.end
+{
+display: flex;
+background-color: rgb(180, 177, 177);
+width: 100%;
+height: 20vh;
+justify-content: space-evenly;
+align-items:center;
+}
+.foot
+{
+display: flex;
+background-color: rgb(248, 241, 241);
+width: 20%;
+height: 10vh;
+font-weight: bold;
+justify-content:space-evenly;
+align-items: center;
+}
