@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 100px);
+    grid-gap: 0.5em;
+}
+.green {
+background-image: url(/Week6.2/images/main_photo1.png);
+background-size: 100%;
+object-fit: cover;
+background-repeat: no-repeat;
+}
+.yellow {
+background-image: url(/Week6.2/images/main_photo1.png);
+background-size: 100%;
+object-fit: cover;
+background-repeat: no-repeat;
+}
+.blue {
+    background-image: url(/Week6.2/images/main_photo1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.violet { 
+    background-image: url(/Week6.2/images/main_photo1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;;
+}
+.darkgreen {
+    background-image: url(/Week6.2/images/main_photo1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.red {
+    background-image: url(/Week6.2/images/main_photo1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
